@@ -1,0 +1,76 @@
+html{
+  font-family: 'Yuji Syuku', serif;
+  background-image: url('background.jpg');
+  background-size: auto cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+hr{
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    padding: 15px 0px;
+    text-shadow: 1px 1px 5px black;
+}
+
+form{
+  border: solid 1px black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px grey;
+  width: 50%;
+  background: rgb(0,0,0,0.5);
+  background: linear-gradient(45deg, rgba(0,0,0,0.5) 1%, rgba(0,0,0,0.2) 99%);
+  position: relative;
+  left: 25%;
+  margin-top: 40px;
+}
+
+label{
+    margin: 0px 0px 0px 15%;
+    text-shadow: 1px 1px 2px black;
+}
+  input{
+    margin: 0px 15% 0px 0px;
+    position: absolute;
+    right: 0px;
+  }
+
+button{
+  background-color: rgba(38,180,38,1);
+  font-weight: bold;
+  border: solid 1px black;
+  margin: 25px 40%;
+  width: 20%;
+  height: 35px;
+  border-radius: 5px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: rgba(38 , 255 , 38 , 1);
+}
+
+a{
+  color: rgba(0, 0 , 255, 1);
+  cursor: pointer;
+}
+
+p{
+  text-align: center;
+}
+
+.radiobutton{
+  text-align: center;
+  margin: 0px 0px 0px 15%;
+  text-shadow: 1px 1px 2px black;
+}
+
+.alignleft{
+
+}

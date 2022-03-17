@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
+    <!-- -->
+  </head>
+  <body>
+    <form id="register_form">
+      <h1> Please Register:</h1>
+      <hr>
+      <!-- Name input -->
+      <label for="name">Name:</label>
+      <input id="name">
+      <br>
+      <!-- Surname input -->
+      <label for="surname">Surname:</label>
+      <input id="surname">
+      <br>
+      <!-- Email input -->
+      <label for="email">Email:</label>
+      <input type="email" id="email">
+      <br>
+      <!-- Password Input -->
+      <label for="password">Password: </label>
+      <input type="password" id="password">
+      <br>
+      <!-- Retyper Password Input -->
+      <label for="password2">Re-type Password: </label>
+      <input type="password" id="password2">
+      <br>
+      <!-- Agree to TOS-->
+
+      <label for="radio" class="radiobutton">I have read & agree to the T.O.S.</label>
+      <input type="radio" id="radio" class="alignleft" required>
+
+      <br>
+      <button type="button" name="Register" onclick="register()">Register</button>
+
+      <p> Already Registered? <a onclick="swap('login')"> Login! </a></p>
+    </form>
+  </body>
+</html>
